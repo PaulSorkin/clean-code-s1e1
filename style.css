@@ -18,8 +18,8 @@ body {
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
-}
+  .header { text-align: center;
+  }
 }
 .main {
     display: block;
@@ -57,8 +57,7 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+h3, label[for="new-task"] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
@@ -66,6 +65,7 @@ label[for="new-task"] {
     padding: 30px 0 10px;
     margin: 0;
     text-transform: uppercase;
+    width: 100%;
 }
 input[type="text"] {
     margin: 0;
